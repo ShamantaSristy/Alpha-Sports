@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { CardColumns, Container } from 'react-bootstrap';
-import LeagueInfo from '../LeagueInfo/LeagueInfo';
+import HomePageInfoCard from '../HomePageInfoCard/HomePageInfoCard';
 
 const Home = () => {
     const [league, setLeague] = useState([]);
@@ -9,13 +9,14 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setLeague(data.countrys))
     }, [])
+    console.log(league);
     return (
         <Container>
 
             <Container>
                 <CardColumns>
                     {
-                        league.map(league => <LeagueInfo league={league}></LeagueInfo>)
+                        league.map(league => <HomePageInfoCard league={league}></HomePageInfoCard>)
                     }
                 </CardColumns>
             </Container>

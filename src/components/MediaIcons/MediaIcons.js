@@ -7,13 +7,14 @@ import twitter from '../../images/Twitter.png';
 import youtube from '../../images/YouTube.png';
 import "./MediaIcons.css";
 
-const MediaIcons = () => {
+const MediaIcons = (props) => {
+    const {strTwitter, strYouTube, strWebsite} = props.details;
     
     return (
         <Container>
-            <Link> <Image className="icons" src={facebook} fluid /> </Link>
-            <Link> <Image className="icons" src={twitter} fluid /> </Link>
-            <Link> <Image className="icons" src={youtube} fluid /> </Link>
+            <Link to={strWebsite}> <Image className="icons" src={facebook} fluid /> </Link>
+            <Link to={strTwitter}> <Image className="icons" src={twitter} fluid /> </Link>
+            <Link to={strYouTube}> <Image className="icons" src={youtube} fluid /> </Link>
         </Container>
     );
 };

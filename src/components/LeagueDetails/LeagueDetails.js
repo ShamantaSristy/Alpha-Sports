@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Image } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import AboutText from '../AboutText/AboutText';
 import Banner from '../Banner/Banner';
@@ -18,12 +18,21 @@ const LeagueDetails = () => {
 
     }, [idLeague]);
     console.log(details);
+     
+    const { strBadge} = details;
+    const badgeStyle = {
+
+        width:"20%",
+        margin:"10px 42%"  
+    }
     return (
         <Container>
 
             <Container>
                 <Banner details={details}></Banner>
+                <Image style={badgeStyle} src={strBadge}/>
             </Container>
+                 
 
             <Container>
                 <Container>
