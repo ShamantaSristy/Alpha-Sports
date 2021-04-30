@@ -1,17 +1,13 @@
 #                   ALPHA SPORTS LEAGUE
 
-* Live Site: [https://clever-jones-de8866.netlify.app]
+**Live Site: [https://clever-jones-de8866.netlify.app]**
+
+ This is a sports website which gives information about different sports leagues.
 
    ###### Features :
-- George Washington
-- John Adams
-- Thomas Jefferson         
-
-This site will help the visitors know more about the leagues he/she intersted in.
-This website has detail informations about the country,sports type,gender of the players,founded year and a brief history of that leagues.
-
-
-###There are features for visitors such as at first glance the hompage cards will let them know the sports type and the country of that league.And when they will explore, it will help them know the other detail information along with the dynamic picture and icon based on the players gender.
+- Visitors will have the key information about a league displayed on the homepage such as league name, sports type and the country of the league.
+- If the visitors wants more information about the league, there's information about the history, gender of the players,founded year etc.
+    
 
 
 
