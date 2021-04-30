@@ -1,8 +1,11 @@
-# ALPHA SPORTS LEAGUE
+#                   ALPHA SPORTS LEAGUE
 
+* Live Site: [https://clever-jones-de8866.netlify.app]
 
    ###### Features :
-
+- George Washington
+- John Adams
+- Thomas Jefferson         
 
 This site will help the visitors know more about the leagues he/she intersted in.
 This website has detail informations about the country,sports type,gender of the players,founded year and a brief history of that leagues.
@@ -12,4 +15,3 @@ This website has detail informations about the country,sports type,gender of the
 
 
 
-**This site has published on [https://clever-jones-de8866.netlify.app]
