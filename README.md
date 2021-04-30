@@ -1,5 +1,7 @@
-                               ###ALPHA SPORTS LEAGUE
+# ALPHA SPORTS LEAGUE
 
+
+   ###### Features :
 
 
 This site will help the visitors know more about the leagues he/she intersted in.
